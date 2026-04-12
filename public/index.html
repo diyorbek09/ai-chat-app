@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private AI Chat</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <header>
+        <div class="header-info">
+            <h2>Private AI System</h2>
+            <p class="subtitle">Secure LLM Interface</p>
+        </div>
+        <div class="status-badge">
+            <span class="dot"></span> Online
+        </div>
+    </header>
+    
+    <div id="chat-window">
+        <div class="message ai">Hello! I'm your AI assistant. How can I help you today?</div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+        <button id="send-btn">
+            <span>Send</span>
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
