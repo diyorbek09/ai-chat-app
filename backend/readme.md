@@ -1,4 +1,4 @@
-bash```
+bash ```
 1. Navigate to Project Directory
 Open your terminal and enter your project folder:
 cd ai-chat-app
