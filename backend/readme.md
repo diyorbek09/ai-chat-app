@@ -1,3 +1,4 @@
+bash```
 1. Navigate to Project Directory
 Open your terminal and enter your project folder:
 cd ai-chat-app
@@ -39,3 +40,4 @@ Once the terminal displays "Server running on http://localhost:3000", open your 
 Plaintext
 
 http://localhost:3000
+```
