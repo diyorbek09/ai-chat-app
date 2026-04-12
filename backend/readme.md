@@ -1,6 +1,5 @@
 1. Navigate to Project Directory
 Open your terminal and enter your project folder:
-```bash
 cd ai-chat-app
 
 2. Install Dependencies
