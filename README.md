@@ -28,7 +28,7 @@ Open your terminal (Command Prompt, PowerShell, or macOS/Linux Terminal) and fol
 ### 1. Download the Project
 Clone the repository to your local machine and navigate into the main folder:
 ```bash
-git clone [https://github.com/diyorbek09/ai-chat-app.git](https://github.com/diyorbek09/ai-chat-app.git)
+git clone https://github.com/diyorbek09/ai-chat-app.git
 cd ai-chat-app
 ````
 
