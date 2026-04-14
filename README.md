@@ -9,7 +9,7 @@ A secure, responsive web application that interfaces with the Groq Llama-3.1 API
 
 ---
 
-## 🛠️ Prerequisites (Do this first!)
+## Prerequisites (Do this first!)
 
 Before running this project, ensure you have the following developer tools installed:
 
@@ -21,7 +21,7 @@ Before running this project, ensure you have the following developer tools insta
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 Open your terminal (Command Prompt, PowerShell, or macOS/Linux Terminal) and follow these steps exactly:
 
@@ -108,7 +108,7 @@ ai-chat-app/
 
 -----
 
-## ✨ Technical Features
+## Technical Features
 
   - **Security-First Architecture**: The frontend never touches the API key. All requests route securely through the local Express proxy to prevent key exposure.
   - **Rich Text Rendering**: Utilizes Marked.js to convert raw AI Markdown responses into beautifully formatted HTML.
@@ -118,7 +118,42 @@ ai-chat-app/
 
 -----
 
-## 📝 Submission Info
+🛠️ Troubleshooting
+
+If you encounter issues during setup, check these common solutions:
+1. "Scripts are disabled on this system" (Windows)
+
+If npm commands fail in PowerShell, you need to update your execution policy:
+
+    Open PowerShell as Administrator.
+
+    Run: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+    Type Y and press Enter.
+
+2. "Port 3000 is already in use"
+
+If another application is using Port 3000, you will see an EADDRINUSE error.
+
+    Solution: Open your .env file and change PORT=3000 to PORT=3005 (or any other number). Restart the server.
+
+3. "API Key not found" or 401 Errors
+
+If the chat doesn't respond:
+
+    Ensure your .env file is inside the backend folder.
+
+    Ensure the variable is named exactly GROQ_API_KEY.
+
+    Check that there are no spaces or quotes around your key (e.g., KEY=gsk_123, not KEY = "gsk_123").
+
+4. Node.js Version Issues
+
+If npm run dev doesn't work, your Node.js version might be older than v20.
+
+    Fix: Run the server directly using: node server.js
+
+## Submission Info
 
 This project was developed for the Private AI System Case Study.
 
